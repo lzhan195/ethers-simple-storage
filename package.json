@@ -11,5 +11,7 @@
     },
     "scripts": {
         "compile": "yarn solcjs --bin --abi --include-path node_modules/ --base-path . -o . SimpleStorage.sol"
+        "deploy": "ts-node deploy.ts",
+        "encrypt": "ts-node encryptKey.ts"
     }
 }
